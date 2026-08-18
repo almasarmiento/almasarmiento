@@ -2,24 +2,31 @@ const cabezaArray = [
   'cabeza1.png',
   'cabeza2.png',
   'cabeza3.png',
+  'cabeza4.png',
+  'cabeza5.png',
+
 ];
 
 const ojosArray = [
   'ojos1.png',
   'ojos2.png',
   'ojos3.png',
+  'ojos4.png',
+
 ];
 
 const narizArray = [
   'nariz1.png',
   'nariz2.png',
   'nariz3.png',
+  'nariz4.png',
 ];
 
 const bocaArray = [
   'boca1.png',
   'boca2.png',
   'boca3.png',
+  'boca4.png',
 ];
 
 const cabezaTag = document.getElementById('cabezaImg');
