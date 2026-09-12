@@ -256,6 +256,13 @@ padding-bottom: 20%;}
 text-align: left;
 width: 90%;}
 
+.nombreproyecto{
+  height: 90px;
+  background-color: transparent;
+width: 75%;
+margin-top: 5px;
+float: left;}
+
 /* Fin estilo para índice artes*/
 
 }
