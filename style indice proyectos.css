@@ -116,7 +116,7 @@ z-index: 96;
   border-radius: none;
   display: none;
   overflow: hidden;
-  height: 100%;
+  height: auto;
 }
 
 
@@ -128,16 +128,21 @@ z-index: 96;
 /* Fin estilo para "Control buttons"*/
 
 
-#infoproy {height: 100%;
-  margin-bottom: 5%;
+#infoproy {height: auto;
+  background-color: transparent;
+  line-height: 1.5;
+  margin-bottom: 0%;
   padding-left: 3%;
-  padding-right: 3%;}
+  padding-right: 3%;
+  padding-top: 1%;
+padding-bottom: 15%;}
 
 .nombreproyecto{
   font-family: monospace;
+  background-color: transparent;
 font-size: 10pt;
 position: relative;
-width: 80%;
+width: 70%;
 margin-top: 5px;
 float: left;}
 
@@ -145,11 +150,14 @@ float: left;}
   font-family: monospace;
 font-size: 10pt;
 position: relative;
-width: 20%;
+width: 25%;
 opacity: 50%;
 float: right;
 margin-top: 5px;
 text-align: right;}
+
+#imgindice{width: 100%;
+height: auto;}
 
 
 .documentosproyectos{font-style: italic;
@@ -182,12 +190,13 @@ z-index: 96;
 
 .containerproyectos {
     position: relative;
+    background-color: transparent;
     width: 95vw;
     left: 50%;
     transform: translateX(-50%);
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: -7%;
+    margin-top: -3%;
   padding: 0%;
   display: grid;
   grid-gap: 1%;
@@ -225,11 +234,15 @@ z-index: 96;
   align-content: center;
   display: none;
   overflow: hidden;
-  height: 150%;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 
+#infoproy {height: auto;
+padding-bottom: 20%;}
+
 .filterItems > img{
+  height: auto;
   width: 100%;
 }
 
